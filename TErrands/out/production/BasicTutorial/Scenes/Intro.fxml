@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" style="-fx-background-color: #293b5f;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Login">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="TErrands" textFill="#b2ab8c">
+         <font>
+            <Font name="Berlin Sans FB" size="28.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="359.0" fitWidth="360.0" layoutX="407.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/pic1.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="12.0" layoutY="189.0" text="all your Errands to run, " textFill="#b2ab8c">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="12.0" layoutY="203.0" prefHeight="60.0" prefWidth="225.0" text="Organized." textFill="#b2ab8c">
+         <font>
+            <Font name="Arial Black" size="31.0" />
+         </font>
+      </Label>
+      <Pane layoutY="168.0" opacity="0.1" prefHeight="106.0" prefWidth="298.0" style="-fx-background-color: black; -fx-background-radius: 0 20 20 0;" />
+      <Button layoutX="12.0" layoutY="378.0" mnemonicParsing="false" onAction="#SeeMore" prefHeight="26.0" prefWidth="102.0" style="-fx-background-color: #dbe6fd; -fx-background-radius: 20;" text="see more">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="12.0" layoutY="274.0" prefHeight="71.0" prefWidth="274.0" text="TErrands is a very lightweight app, that keeps track of your group/solo project progress, making your life a little more easier." textFill="#b2ab8c" wrapText="true">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
