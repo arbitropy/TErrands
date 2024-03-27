@@ -16,6 +16,7 @@
 
 ## Usage
 The app was not packaged or deployed, feel free to convert this to a maven or gradle project to deploy properly.
+Even though it has complete support for MySQL, currently it uses a CSV to simplify running it on any pc. All DB codes are commented out. 
 Follow these steps to run without packaging:
 1. Clone the repo.
 2. Open in VSCode.
