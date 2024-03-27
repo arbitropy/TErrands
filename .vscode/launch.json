@@ -9,8 +9,8 @@
             "name": "Launch App",
             "request": "launch",
             "mainClass": "TErrands.Main",
-            "projectName": "TErrands_e4c294b2",
-            "vmArgs": "--module-path D:\\Work\\TErrands\\lib --add-modules javafx.controls,javafx.fxml",
+            // "projectName": "TErrands_e4c294b2",
+            "vmArgs": "--module-path D:\\Work\\terrands\\lib --add-modules javafx.controls,javafx.fxml",
         }
     ]
 }
