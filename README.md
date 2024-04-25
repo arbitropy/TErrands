@@ -33,5 +33,4 @@ Follow these steps to run without packaging:
 
 
 ## Disclaimer
-Currently the software is just a prototype with few main features unimplemented, and some bugs to be fixed. You can check the progress here: 
-https://trello.com/b/maTKnLWJ/terrands-javafx-project-22
+Currently the software is just a prototype with few main features unimplemented, and some bugs to be fixed. You can check the progress [here](https://trello.com/b/maTKnLWJ/terrands-javafx-project-22).
